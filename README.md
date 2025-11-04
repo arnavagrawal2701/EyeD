@@ -8,7 +8,7 @@ It uses:
 
 - A **DNN-based face detector** (Caffe model: `deploy.prototxt` and `res10_300x300_ssd_iter_140000.caffemodel`).
 - An **LBPH face recogniser** (`cv2.face.LBPHFaceRecognizer_create`) for identifying registered users.
-- A **SQLite database (`dip.db`)** to store user details and attendance.
+- A **SQLite database (`attendance.db`)** to store user details and attendance.
 - An **Excel export** feature for attendance records.
 
 This project is aligned with **Unit 5 – Applications of Computer Vision** of the Computer Vision syllabus.
@@ -19,7 +19,7 @@ This project is aligned with **Unit 5 – Applications of Computer Vision** of t
 - Capture face samples using the webcam and store them in the `dataset/` folder.
 - Train an LBPH face recogniser and store the model in `recognizer/trainingdata.yml`.
 - Mark attendance automatically when a recognised user looks at the camera.
-- Store attendance records in a SQLite database (`dip.db`).
+- Store attendance records in a SQLite database (`attendance.db`).
 - Export attendance records to Excel (`.xlsx`) using a GUI folder chooser.
 - Manager login to:
   - Register users
