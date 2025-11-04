@@ -1,0 +1,9 @@
+opencv-python
+opencv-contrib-python
+numpy
+pillow
+customtkinter
+CTkMessagebox
+pytz
+pandas
+openpyxl
