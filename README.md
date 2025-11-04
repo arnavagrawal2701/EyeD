@@ -49,7 +49,7 @@ face_attendance/
 ├─ util.py                        # Helper functions (DB, training, export)
 ├─ deploy.prototxt                # Face detection model definition
 ├─ res10_300x300_ssd_iter_140000.caffemodel   # Face detection model weights
-├─ dip.db                         # SQLite database (USER, Attendance)
+├─ attendance.db                         # SQLite database (USER, Attendance)
 ├─ dataset/                       # Captured face images
 │   └─ user.<uID>.<sample>.jpg
 ├─ recognizer/
